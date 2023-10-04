@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Line } from "react-chartjs-2";
-import Chart from "./abc";
+import Chart from "./Chart.js";
+import Observation from "./Observation_table.js";
+import "./LVDT.css";
+import SinGraph from "./sine_curve.js";
 
-const ProductGraph = ({ freq , Ip,Np,u0, m , b , ro_ri}) => {
+const ProductGraph = ({ freq , Ip,Np,u0, m , b , ro_ri , Vin}) => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -16,11 +19,15 @@ const ProductGraph = ({ freq , Ip,Np,u0, m , b , ro_ri}) => {
       });
     }
     setData(newData);
-  }, [freq , Ip,Np,u0, m , b, ro_ri]);
+  }, [freq , Ip,Np,u0, m , b, ro_ri ]);
 
   return (
     <div>
-       <Chart data = {data}></Chart>
+      <SinGraph x = {Vin} y = {Vin-1} className = "sineBlock" ></SinGraph>
+    <div className="observation_block">
+       <Observation data = {data}></Observation>
+       <Chart data = {data}></Chart> 
+    </div>
     </div>
   );
 };

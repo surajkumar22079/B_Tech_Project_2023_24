@@ -1,0 +1,100 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 83%;
+}
+.form{
+    background-color: rgb(123, 105, 185);
+    position: absolute;
+    right: 40px;
+    top: 0;
+    padding-top: 3rem;
+    width: 17%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+
+}
+.input_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(101, 111, 225);
+    margin: 3px 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    /* border: 2px solid red; */
+    border-radius: 14px;
+    padding:8px 12px;
+}
+.submitbtn {
+    cursor: pointer;
+    margin: 12px;
+    padding: 3px 8px;
+    border-radius: 5px; 
+}
+.input_box select , .input_box input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.blank-component{
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+}
+img{
+    width: 300px;
+    margin: 12px;
+}
+.container_diag{
+    display: flex; 
+    justify-content: center;
+    padding: 12px;
+}
+.image-container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rebeccapurple;
+    margin: 4px 34px;
+}
+
+.empty-container{
+    border: 2px solid rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+/* .empty-slot-placeholder{
+} */
+.empty-container-slot{
+    border: 2px solid blueviolet;
+    width: 39rem;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.observation_block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 23px 234px;
+}
+.chart{
+    padding: 22px;
+}
+
+.sineCurve{
+    display: flex;
+    width: 50% !important;
+    height: 20% !important;
+}
+
+ 
+
+  
