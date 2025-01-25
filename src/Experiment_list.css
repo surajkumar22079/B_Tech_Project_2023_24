@@ -1,0 +1,22 @@
+.exp-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 54px 39px;
+}
+.exp-list-box{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.exp-list-box a{
+    margin: 15px 2px;
+    font-size: 27px;
+    color: #009dff;
+    text-decoration: none;
+}
+.exp-list-box a:hover{ 
+    color: #337cbb; 
+    text-decoration: underline;
+}

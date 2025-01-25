@@ -1,0 +1,227 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 83% !important;
+}
+.Aim_comp{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    margin: 3px 55px;
+    height: 80vh;
+}
+.Aim_comp h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.Aim_comp h4{
+    font-size: 19px;
+    font-weight: 400;
+    margin: 9px 0;
+}
+
+/* .top_container{
+    display: flex;
+} */
+.container h3{
+    display: flex;
+    margin-left: 2%;
+    justify-content: center;
+}
+.Theory_comp{
+    padding: 12px 23px;
+}
+.theory_block {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    margin: 13px 0;
+
+}
+.block1{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+}
+.theory_block h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.theory_block img{
+    margin: auto;
+}
+.block1{
+    margin: 13px 32px;
+}
+.block1 h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 ;
+}
+.block1 p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 9px 0;
+    text-align: start;
+}
+.theory_block h4  , .theory_block p{
+    font-size: 19px;
+    font-weight: 400;
+    margin: 9px 0;
+    text-align: start;
+}
+
+
+.sample_diag{
+    border-radius: 8px;
+    background-color: rgb(251 251 251);
+    /* padding-top: 3rem; */
+    /* width: 17%; */
+    /* height: 90%; */
+    /* color: rgb(255, 255, 255); */
+    border: 1.4px solid rgb(216, 216, 216);
+    padding: 4px;
+    margin: 15px 2px;
+}
+.form{
+    border-radius: 8px;
+    background-color: rgb(251 251 251);
+    /* position: absolute;
+    right: 1%;
+    top: 84px; */
+    /* padding-top: 3rem; */
+    width: 20%;
+    /* height: 90%; */
+    color: rgb(255, 255, 255);
+    border: 1.4px solid rgb(216, 216, 216); 
+
+}
+.form p{
+    color: black;
+}
+.config{
+    color: black;
+}
+.input_box{
+    border: 2px solid #c9c9ef;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(101, 111, 225); */
+    margin: 3px 12px;
+    /* background-color: rgb(133 170 217); */
+    background-color: rgb(238 242 255);
+    color: black;
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+ 
+.submitbtn {
+    cursor: pointer;
+    margin: 12px;
+    padding: 3px 11px;
+    border-radius: 5px; 
+    border: none;
+    background-color: rgb(133 170 217);
+    color: white;
+}
+.input_box select , .input_box input{
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    border-radius: 4px;
+    border: none;
+}
+.range_input{
+    width: 180px !important;
+}
+.input_box {
+    text-align: left;
+}
+
+.blank-component{
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+}
+img{
+    width: 300px;
+    margin: 12px;
+}
+.container_diag{
+    display: flex; 
+    justify-content: center;
+    padding: 12px;
+}
+.image-container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rebeccapurple;
+    margin: 4px 34px;
+}
+
+.empty-container{
+    border: 2px solid rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+/* .empty-slot-placeholder{
+} */
+.empty-container-slot{
+    border: 2px solid blueviolet;
+    width: 39rem;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.observation_block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 23px 23px;
+    margin: 46px 30px;
+}
+.chart{
+    padding: 22px;
+}
+
+.sineCurve{
+    display: flex;
+    width: 74% !important;
+    height: 30% !important;
+}
+
+.sineCurve text[data-id="Vin"],
+.sineCurve text[data-id="Vout"] {
+  font-size: 160px; /* Adjust the font size for Vin and Vout labels */
+}
+
+.caption {
+    text-align: center !important;
+}
+.figures{
+    width: 550px !important;
+}
+.graph{
+    width: 900px;
+    display: flex;
+}
+.figure-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}

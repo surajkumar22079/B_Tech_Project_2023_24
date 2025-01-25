@@ -1,0 +1,166 @@
+.container{
+    margin: 22px;
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    justify-content: center;
+    gap: 10px;
+}
+.oscilloscope-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.oscilloscope{
+    
+    margin: auto;
+    /* width: 60%; */
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr 1fr;
+    height: auto;
+    gap: 15px;
+    /* border: 2px solid #009dff; */
+    border-radius: 12px;
+    padding: 5px;
+    box-shadow: #009dff 0px 2px 2px 0px, #337cbb 0px 1px 3px 1px;
+}
+.main-left-col{
+    /* height: 120px; */
+    border-radius: 12px;
+    /* border: 2px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.1) 3px 3px 5px 3px, rgba(0, 0, 0, 0.06) 0px 3px 2px 0px;
+}
+.vertical {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.graph-area{
+    height: 480px;
+}
+
+.updownbtn{
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background: none;
+    cursor: pointer;
+}
+
+.updownbtn img{
+    width: 10%;
+}
+
+.x-position{
+    display: flex;
+    
+}
+.x-position button img{
+    width: 20%;
+}
+.left_arrow{
+    transform: rotate(-90deg);
+}
+.right_arrow{
+    transform: rotate(90deg);
+}
+
+.playground{
+    width: 60%;
+}
+
+.ch1-circle{
+    margin: auto;
+    margin-top: 12px;
+    width: 40px;
+    height: 40px;
+     border-radius: 112px;
+    border: 8px solid rgb(216, 216, 216);
+}
+
+
+.input-values{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.control-panel-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    gap: 35px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    padding: 40px 20px;
+    border-radius: 12px;
+}
+.control-panel-box div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 20px 0;
+
+}
+.control-panel-box div button{ 
+       font-size: 16px;
+    width: 45%;
+    height: 30%;
+    margin: 5px;
+    background-color: #009dff;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    align-items: center;
+    padding: -1px 0;
+    cursor: pointer;
+}
+.control-panel-box div button:hover{
+    /* color: rgb(209, 209, 209); */
+    background-color: #74caff
+}
+
+.control-panel-box div input{
+    margin: 2px 9px;
+    width: 40%;
+    text-align: center;
+    border-radius: 4px;
+    border: 2px solid #009dff;
+    outline: none;
+}
+.control-panel-box div label{
+     
+   color: #001e31; 
+}
+.control-panel-box h2{
+    margin: auto;
+}
+
+.subhead{
+    margin: 0;
+}
+.sineCurve{
+    margin: 26px 12px;
+    border-radius: 5px;
+    border: 5px solid rgb(150 147 147);
+}
+.y-position , .scale, .Channel , .gnd , .x-pos-div , .x-scale-div{
+    color: white;
+    padding: 8px 3px;
+    background-color: #009dff;
+    /* border: 1.5px solid black; */
+    border: none;
+    font-size: 16px;
+    margin: 0px 8px;
+    border-radius: 13px;
+}
+.x-scale-div p{
+    margin: 0;
+}
+.x-pos-div p{
+    margin: 20px 0;
+}

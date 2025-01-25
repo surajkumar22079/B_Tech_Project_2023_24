@@ -1,0 +1,99 @@
+.container-Piezometer {
+    position: relative;
+    top:  150px;
+    transform: rotate(180deg);
+    width: 200px; /* Adjusted width for the longer container */
+    height: 290px; /* Adjusted height for the container */
+    margin: 20px auto; /* Center the container */
+    
+  }
+  .heading-piezo{
+    font-size: 33px;
+  }
+
+  .piezo-box{
+    display: flex;
+  }
+  .piezo-details{
+    width: 100%;
+  }
+  .abc hr{
+    transform: rotate(90deg);
+    height: 4px;
+    color: black;
+  }
+  .Horizontal-cylinder, .liquid-Horizontal {
+    height: 40px;
+    margin: 2px;
+    border-radius: 20px; /* Half of the thickness to make it round */
+  }
+  
+  .Horizontal-cylinder{
+    width: 421px; /* Increased width for the longer cylinder */
+    background-color: grey;
+    height: 45px;
+    margin: 2px auto;
+  }
+  
+  .liquid-Horizontal {
+    position: absolute;
+    top: 0;
+    left: -1px;
+    width: 416px;
+    /* background-color: purple; */
+  }
+  
+  .Vertical-cylender{
+    position: absolute;
+    height: 360px;
+    margin: 2px auto;
+    width: 40px;
+    border-radius: 20px;
+    background-color: grey;
+  }
+  
+  
+  
+  
+  .Vertical-cylender {
+    left: 204px;
+  }
+  
+  
+  
+  .liquid-Vertical {
+    position: absolute;
+    top: 10px;
+    left: 207px;
+    width: 33px;
+    height: 90px;
+    border-radius: 20px;
+    background-color: purple;
+  }
+
+
+.observation-table {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.observation-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.observation-table th, .observation-table td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: center;
+}
+
+.observation-table th {
+  background-color: #f2f2f2;
+}
+
+.observation-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

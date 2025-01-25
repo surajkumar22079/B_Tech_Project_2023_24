@@ -1,0 +1,24 @@
+.xy-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .xy-table th, .xy-table td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .xy-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  .xy-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+   .obser_table_div{
+    width :20%;
+   }
+  

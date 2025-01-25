@@ -1,0 +1,143 @@
+.sb-mobile-palette {
+    width: 240px;
+    height: 100%;
+    float: left;
+  }
+  .top_container{
+    display: flex;
+}
+.control-pane{
+  width: 100%;
+}
+  
+.main_heading{
+  margin: 0;
+  padding: 14px 0;
+      background-color: rgb(238 242 255);
+}
+
+  .sb-mobile-palette-bar {
+    display: none;
+  }
+  .control-section{
+    margin: 0 21px;
+    /* border: 2px solid black; */
+    /* width: 80%; */
+  }
+  .container-fluid {
+    padding-bottom: 15px;
+  }
+#logicCircuit{
+  padding: 11px;
+}
+#diagram-space{
+  width: calc(99% - 242px);
+  border: 1px solid black;
+}
+#palette-space{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.abc{
+  border: 3px solid black;
+}
+ 
+.graphs{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+  #symbolpalette{
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    border-radius: 6px;
+    border: 1.4px solid rgb(216, 216, 216);
+    padding: 8px;
+    /* height: 50% !important; */
+    width: 88% !important;
+    background-color: rgba(247, 247, 247,0.5);
+  }
+ .e-acrdn-panel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #flow{
+    display: flex;
+    overflow: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  
+  .sb-mobile-diagram {
+    width: calc(100% - 242px);
+    height: 100%;
+    float: left;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-left: none;
+  }
+   
+  
+  @media (max-width: 550px) {
+  
+    .sb-mobile-palette {
+        z-index: 19;
+        position: absolute;
+        display: none;
+        transition: transform 300ms linear, visibility 0s linear 300ms;
+        width: 39%;
+        height: 100%;
+    }
+  
+    .sb-mobile-palette-bar {
+        display: block;
+        width: 100%;
+        background: #fafafa;
+        padding: 10px 10px;
+        border: 0.5px solid #5056b8;
+        min-height: 40px;
+    }
+  
+    .sb-mobile-diagram {
+        width: 100%;
+        height: 100%;
+        float: left;
+        left: 0px;
+    }
+  
+    #palette-icon {
+        font-size: 20px;
+    }
+  }
+  
+  .sb-mobile-palette-open {
+    position: absolute;
+    display: block;
+    right: 15px;
+  }
+  
+  .e-toggle-palette::before {
+    content: "\e700"
+  }
+  
+  .material #logicCircuit #palette-space .e-accordion {
+    border: none;
+  }
+  
+  .material #logicCircuit #palette-space {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+  }
+  
+  .bootstrap #logicCircuit .sb-mobile-diagram {
+    height: calc(100% - 5px);
+    margin-top: 5px;
+    border-radius: 4px;
+    border-left: 1px solid rgba(0, 0, 0, 0.12);
+  }
+  
+  .fabric #logicCircuit .sb-mobile-diagram {
+    border-left: 1px solid rgba(0, 0, 0, 0.12);
+  }

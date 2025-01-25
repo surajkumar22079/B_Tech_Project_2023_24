@@ -1,0 +1,27 @@
+.sine-curve {
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Optional: Style for canvas border */
+  .sine-curve canvas {
+    border: 1px solid #ddd;
+  }
+  
+  /* Optional: Add padding to the canvas */
+  .sine-curve canvas {
+    padding: 10px;
+  }
+  
+  /* Optional: Adjust the font size and color for axis labels */
+  .sine-curve canvas {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Optional: Style the sine curve line */
+  .sine-curve canvas {
+    border: 2px solid #3498db;
+  }
+  

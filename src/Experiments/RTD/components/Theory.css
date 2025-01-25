@@ -1,0 +1,33 @@
+.theory-rtd{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.theory-rtd img{
+    width: 60%;
+    margin: auto;
+}
+.theory-rtd ul img{
+    width: 60%;
+    margin: auto;
+}
+.theory-rtd p{
+    font-size: 19px;
+}
+.theory-rtd h1{
+    font-size: 25px;
+}
+.theory-rtd ul li{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.caption {
+    text-align: center !important;
+}
+.figures{
+    width: 550px !important;
+}
+.graph{
+    width: 900px;
+    display: flex;
+}

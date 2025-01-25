@@ -1,0 +1,12 @@
+.section{
+    background-color: #009dff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+/* .footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} */

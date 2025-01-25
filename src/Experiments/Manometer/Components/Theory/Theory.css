@@ -1,0 +1,29 @@
+.theory{
+    margin: 30px 0;
+    text-align: left;
+}
+.theory h1{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.theory h2{
+    margin-top: 40px;
+    font-size: 35px; 
+}
+
+.theory p{
+    font-size: 20px;
+}
+.theory ul li{
+    font-size: 20px;
+}
+.main-img{
+    display: flex;
+    margin: auto;
+    width: 27%;
+}
+.formula{
+    width: 170px;
+}
